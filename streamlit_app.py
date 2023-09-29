@@ -18,10 +18,3 @@ streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
 
 # Display the table on the page.
 streamlit.dataframe(my_fruit_list)
-k=0
-j=0
-for j in range(3):
-    for k in range(3):
-        if k <= j:
-            streamlit.text(k, end='')
-    streamlit.text('')
