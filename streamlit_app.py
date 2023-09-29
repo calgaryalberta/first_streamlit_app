@@ -1,4 +1,4 @@
-import streamlit
+dimport streamlit
 
 streamlit.title('My Parents New Healthy Diner')
 streamlit.header('Breakfast Menu')
@@ -23,5 +23,5 @@ j=0
 for j in range(3):
     for k in range(3):
         if k <= j:
-            streamlit.text(k)
+            streamlit.text(k, end='')
     streamlit.text('')
