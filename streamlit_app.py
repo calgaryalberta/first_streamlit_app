@@ -23,5 +23,5 @@ j=0
 for j in range(100):
     for k in range(100):
         if k <= j:
-            print(k,end=' ')
-    print('')
+            streamlit.text(k,end=' ')
+    streamlit.text(('')
