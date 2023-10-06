@@ -1,3 +1,3 @@
 #requirements.txt
-snolwflake-connector-python
+snowflake-connector-python
 streamlit==1.25.0 
