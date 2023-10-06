@@ -1,2 +1,3 @@
 #requirements.txt
 snolwflake-connector-python
+Adding streamlit==1.25.0 
